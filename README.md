@@ -32,4 +32,4 @@ Challenge 6 - Intégration Bootstrap
 * H2 = 2em;
 * Normal = 1em;
 
-Dans le footer le 1er article et une balise <blockquote>
+Dans le footer le 1er article et une balise `<blockquote>`
