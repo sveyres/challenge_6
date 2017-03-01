@@ -1,4 +1,4 @@
-body{
+body {
     background-color: black;
 }
 .row {
@@ -23,19 +23,20 @@ h1, h2, h3 {
 h2{
     font-size: 2.5em;
 }
-h3{
+
+.article3 h3 {
     font-size: 1.7em;
+    margin: 0 0 2em 0;
 }
 h4{
     font-weight: bold;
 }
-hgroup h4{
-    text-transform: uppercase;
+hgroup h4 {
     font-family: 'Oswald', sans-serif;
     color: #FF0000;
     font-weight: normal;
 }
-h5{
+h5 {
     margin: 0 0 1em 0;
     font-weight: bold;
 }
@@ -51,7 +52,7 @@ nav ul {
     justify-content: center;
     list-style: none;
 }
-nav li{
+nav li {
     padding: 0.5em 0.5em;
     text-transform: uppercase;
 }
@@ -63,77 +64,82 @@ header img {
     padding: 2em;
 }
 
-main img{
+main img {
     margin: 1em 0;
 }
-main a{
+main a {
     color:#ff0000;
 }
-button, .aside1 a {
+.btn {
     background-image: linear-gradient(#ff3d00,#ff0000);
-    border: 0;
-    border-radius: 5px;
-    color: white;
 }
-button {
-    padding: 0.5em 1em;
-}
-dt{
+dt {
     margin-bottom: 0.5em;
 }
-.aside1 a {
-    padding: 0.5em;
-    text-transform: uppercase;
-    display:table-cell;
-}
-.aside1 article{
+.aside1 article {
     padding: 1em 0;
     border-top:1px solid lightgrey;
 }
 .aside1 article:nth-child(2){
     border:none;
 }
-.aside1 p{
+.aside1 p {
     margin: 1em 0 0 0;
 }
-.article2 {
+.article2, .article3 {
     background-image: url(../../images/fond-article.png);
-    display: flex;
-    align-items: flex-start;
     padding: 2em;
 }
-.article2 section{
+.article2 section {
     padding-left: 1.5em;
 }
-.aside2 li{
+.aside2 ul {
+    margin-top: 1em;
+}
+.aside2 li {
     list-style: none;
     padding: 0.5em 0;
     border-top:1px solid lightgrey;
 }
-.aside2 li:first-child{
+.aside2 li:first-child {
     border:none;
 }
-ul{
+ul {
     padding-left: 0;
 }
-.aside2 li::before{
+.aside2 li::before {
     content: "›";
     margin-right: 2em;
 }
-blockquote{
+blockquote {
     font-style: italic;
     background-image: url(../../images/fond.png);
     padding: 2em;
-    border-radius: 5px;
     border-left: none;
     color: grey;
     font-family: 'Merienda', cursive;
 }
-blockquote footer{
+blockquote footer {
     font-weight: bold;
+}
+.article3 dl {
+    border-top:1px solid lightgrey;
+    padding-top: 1em;
+
+}
+.article3 dl:nth-child(2) {
+    border-top: none;
+    padding-top: 0;
+}
+
+.article3 button {
+    margin-top: 1em;
 }
 .footer {
     background-image: url(../../images/footer.png);
+}
+footer {
+    padding: 2em 0;
 }
 .monpadding{
     padding: 3em 2em;
