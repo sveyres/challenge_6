@@ -3,11 +3,12 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="static/external/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Abel|Merienda|Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Merienda|Oswald:200" rel="stylesheet">
 
-    <title></title>
+    <title>Challenge 6</title>
 </head>
 
 <body>
@@ -17,14 +18,26 @@
             <div class="col-xs-12">
                 <header>
                     <h1>Skylined</h1>
-                    <nav>
-                        <ul>
-                            <li><a href="#">Homepage</a></li>
-                            <li><a href="#">Three column</a></li>
-                            <li><a href="#">Two Column #1</a></li>
-                            <li><a href="#">Two Column #2</a></li>
-                            <li><a href="#">One Column</a></li>
-                        </ul>
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="text-uppercase text-center nav navbar-nav">
+                                    <li><a href="#">Homepage</a></li>
+                                    <li><a href="#">Three column</a></li>
+                                    <li><a href="#">Two Column #1</a></li>
+                                    <li><a href="#">Two Column #2</a></li>
+                                    <li><a href="#">One Column</a></li>
+                                </ul>
+                            </div><!-- /.navbar-collapse -->
+                        </div><!-- /.container-fluid -->
                     </nav>
                     <img src="images/pics01.jpg" alt="banner" class="img-responsive">
                 </header>
@@ -89,7 +102,7 @@
             <div class="col-xs-12 col-sm-12 col-md-4">
                 <div class="article2 media">
                     <div class="media-left">
-                        <img class="media-object"src="images/pics06.jpg" alt="">
+                        <img class="media-object" src="images/pics06.jpg" alt="">
                     </div>
                     <div class="media-body">
                         <h5 class="media-heading">Etiam posuere augue</h5>
@@ -100,7 +113,7 @@
             <div class="col-xs-12 col-sm-12 col-md-4">
                 <div class="article2 media">
                     <div class="media-left">
-                        <img class="media-object"src="images/pics05.jpg" alt="">
+                        <img class="media-object" src="images/pics05.jpg" alt="">
                     </div>
                     <div class="media-body">
                         <h5 class="media-heading">Etiam posuere augue</h5>
@@ -237,8 +250,8 @@
 
 
 </body>
-<script src="static/external/jquery/dist/jquery.js"></script>
-<script src="static/external/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="static/js/script.js"></script>
+    <script src="static/external/jquery/dist/jquery.js"></script>
+    <script src="static/external/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="static/js/script.js"></script>
 
 </html>
