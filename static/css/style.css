@@ -1,4 +1,7 @@
-body {
+body{
+    background-color: black;
+}
+.row {
     background-image: url(../../images/fond.png);
     font-family: Arial;
 
@@ -18,10 +21,23 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 h2{
-    font-size: 3em;
+    font-size: 2.5em;
 }
 h3{
-    font-size: 2em;
+    font-size: 1.7em;
+}
+h4{
+    font-weight: bold;
+}
+hgroup h4{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #FF0000;
+    font-weight: normal;
+}
+h5{
+    margin: 0 0 1em 0;
+    font-weight: bold;
 }
 nav {
     font-family: 'Abel', sans-serif;
@@ -46,6 +62,13 @@ header img {
     background-image: url(../../images/fond.png);
     padding: 2em;
 }
+
+main img{
+    margin: 1em 0;
+}
+main a{
+    color:#ff0000;
+}
 button, .aside1 a {
     background-image: linear-gradient(#ff3d00,#ff0000);
     border: 0;
@@ -55,12 +78,59 @@ button, .aside1 a {
 button {
     padding: 0.5em 1em;
 }
+dt{
+    margin-bottom: 0.5em;
+}
 .aside1 a {
     padding: 0.5em;
     text-transform: uppercase;
+    display:table-cell;
+}
+.aside1 article{
+    padding: 1em 0;
+    border-top:1px solid lightgrey;
+}
+.aside1 article:nth-child(2){
+    border:none;
+}
+.aside1 p{
+    margin: 1em 0 0 0;
 }
 .article2 {
     background-image: url(../../images/fond-article.png);
+    display: flex;
+    align-items: flex-start;
+    padding: 2em;
+}
+.article2 section{
+    padding-left: 1.5em;
+}
+.aside2 li{
+    list-style: none;
+    padding: 0.5em 0;
+    border-top:1px solid lightgrey;
+}
+.aside2 li:first-child{
+    border:none;
+}
+ul{
+    padding-left: 0;
+}
+.aside2 li::before{
+    content: "›";
+    margin-right: 2em;
+}
+blockquote{
+    font-style: italic;
+    background-image: url(../../images/fond.png);
+    padding: 2em;
+    border-radius: 5px;
+    border-left: none;
+    color: grey;
+    font-family: 'Merienda', cursive;
+}
+blockquote footer{
+    font-weight: bold;
 }
 .footer {
     background-image: url(../../images/footer.png);
