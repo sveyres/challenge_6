@@ -80,6 +80,12 @@ header img {
     background-image: url(../../images/fond.png);
     padding: 2em;
 }
+.article1 {
+  padding-bottom: 3em;
+}
+main {
+  padding-bottom: 3em;
+}
 main img {
     margin: 2em 0;
 }
